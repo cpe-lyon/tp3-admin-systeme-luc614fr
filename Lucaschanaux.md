@@ -6,7 +6,7 @@ j'ai fait `apt full-upgrade` pour mettre a jour la distribution
 
 1- <b>_.1. Quels sont les 5 derniers paquets installés sur votre machine ?_</b>
 
-J'ai fait `grep installed /var/log/dpkg.log | tail -5` <br>
+J'ai fait `grep installed /var/log/dpkg.log` <br>
 Les 5 derniers paquets sont :  libc-bin:amd64 2.29-0Ubuntu2 <br>
 man-db:amd64 2.8.5-2 <br> 
 rsyslog:amd64 8.32.0-1Ubuntu7 <br> 
@@ -28,4 +28,16 @@ j'ai fait `dpkg -l` et j'ai vu qu'il y'avait 519 lignes de paquet
 
 J'ai fait ```alias maj='apt update && apt upgrade'```  
 
-5- <b>_. A quoi sert le paquet fortunes ? Installez-le._</b>
+
+5- <b>_ A quoi sert le paquet fortunes ? Installez-le._</b>
+
+j'ai fait `apt show fortunes` pour savoir a quoi sert le paquet fortunes <br>
+j'ai ensuite `apt-get install fortunes` pour l'installer 
+
+6- <b>_Quels paquets proposent de jouer au sudoku ?_</b>
+
+j'ai fait `apt-cache search sudoku` il y'a plusieurs résultats possible (ksudoku, gnome-sudoku, fltk1.3-games,nudoku etc..)
+
+7- <b>_Lister les derniers paquets installés explicitement avec la commande apt install_</b>
+
+j'ai fait `apt install` et je vois qu'il y'a 0 nouvellement installés 
