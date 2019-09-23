@@ -23,7 +23,7 @@ j'ai fait `apt list --installed | wc -l` et j'ai vu 524
 
 3- <b>_ Combien de paquets sont disponibles en téléchargement ?_ </b>
 
-
+j'ai fait `apt list | wc -l` 
 
 4- <b> _Créer un alias “maj” qui met à jour le système_ </b>
 
@@ -44,6 +44,12 @@ j'ai fait `apt-cache search sudoku` il y'a plusieurs résultats possible (ksudok
 j'ai fait `cat /var/log/dpkg.log` et je vois qu'il y'a eu fortunes en paquet installlé récemment 
 
 # Exercice 2
+
+j'ai fait `which -a ls | tail -1 | xargs dpkg -S
+
+# Exercice 3
+
+# Exercice 4 
 
 
 
