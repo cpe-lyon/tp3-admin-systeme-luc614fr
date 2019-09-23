@@ -45,10 +45,20 @@ j'ai fait `cat /var/log/dpkg.log` et je vois qu'il y'a eu fortunes en paquet ins
 
 # Exercice 2
 
-j'ai fait `which -a ls | tail -1 | xargs dpkg -S
+j'ai fait `which -a ls | tail -1 | xargs dpkg -S` 
 
 # Exercice 3
+le script bash est le suivant, quand je lance le script il suffit d'écrire la commande 
 
+``` 
+!/bin/bash
+if [ -z "$1" ]; then
+        echo "Pas installé."
+else
+        dpkg -S $(which "$1");
+        echo "Installé";
+fi
+``` 
 # Exercice 4 
 
 
