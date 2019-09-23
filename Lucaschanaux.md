@@ -2,7 +2,7 @@
 
 Commencez par mettre à jour votre système avec les commandes vues dans le cours.
 
-j'ai fait `apt full-upgrade` pour mettre a jour la distribution 
+j'ai fait `apt full-upgrade` pour mettre à jour la distribution 
 
 1- <b> _Quels sont les 5 derniers paquets installés sur votre machine ?_ </b>
 
