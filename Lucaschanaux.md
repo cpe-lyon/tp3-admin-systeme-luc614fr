@@ -6,7 +6,7 @@ j'ai fait `apt full-upgrade` pour mettre a jour la distribution
 
 1- <b>_.1. Quels sont les 5 derniers paquets installés sur votre machine ?_</b>
 
-J'ai fait `grep installed /var/log/dpkg.log`
+J'ai fait `grep installed /var/log/dpkg.log` <br>
 Les 5 derniers paquets sont :  libc-bin:amd64 2.29-0Ubuntu2 <br>
 man-db:amd64 2.8.5-2 <br> 
 rsyslog:amd64 8.32.0-1Ubuntu7 <br> 
