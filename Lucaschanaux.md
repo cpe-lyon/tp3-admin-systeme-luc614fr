@@ -17,8 +17,9 @@ sosreport:amd64 <br>
 2- <b>_2. Utiliser dpkg et apt pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !).
 Comment explique-t-on la (petite) différence de comptage ?_</b>
 
-il y'a 519 paquet installé 
-j'ai fait `dpkg -l` et j'ai vu qu'il y'avait 519 lignes de paquet
+j'ai fait `dpkg -l | grep"^ii" | wc -l` et j'ai vu qu'il y'avait 519 lignes de paquet
+j'ai fait `apt list --installed | wc -l` et j'ai vu 524 
+
 
 3- <b>_Combien de paquets sont disponibles en téléchargement ?_</b>
 
@@ -40,4 +41,9 @@ j'ai fait `apt-cache search sudoku` il y'a plusieurs résultats possible (ksudok
 
 7- <b>_Lister les derniers paquets installés explicitement avec la commande apt install_</b>
 
-j'ai fait `apt install` et je vois qu'il y'a 0 nouvellement installés 
+j'ai fait `cat /var/log/dpkg.log` et je vois qu'il y'a eu fortunes en paquet installlé récemment 
+
+# Exercice 2
+
+
+
