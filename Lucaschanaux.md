@@ -65,3 +65,9 @@ fi
 
 j'ai d'abord installé aptitude en faisant `apt install aptitude` ensuite j'ai chercher le paquet emacs en faisant `/` une fois cela fait j'ai fait `+ g g` et le paquet a été installé 
 
+# Exercice 6. Installation d’un paquet par PPA
+
+2- <b> _Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?_ <b>
+
+un fichier java .list et un fichier java.save
+
