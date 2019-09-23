@@ -53,7 +53,7 @@ le script bash est le suivant, quand je lance le script il suffit d'écrire la c
 ``` 
 !/bin/bash
 if [ -z "$1" ]; then
-        echo "Pas installé."
+        echo "Non installé."
 else
         dpkg -S $(which "$1");
         echo "Installé";
