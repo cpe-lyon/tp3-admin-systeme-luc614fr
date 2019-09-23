@@ -61,5 +61,7 @@ fi
 ``` 
 # Exercice 4 
 
+# Exercice 5
 
+j'ai d'abord installé aptitude en faisant `apt install aptitude` ensuite j'ai chercher le paquet emacs en faisant `/` une fois cela fait j'ai fait `+ g g` et le paquet a été installé 
 
