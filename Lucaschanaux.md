@@ -7,9 +7,12 @@ j'ai fait `apt full-upgrade` pour mettre a jour la distribution
 1- <b>_.1. Quels sont les 5 derniers paquets installés sur votre machine ?_</b>
 
 J'ai fait `grep installed /var/log/dpkg.log`
+Les 5 derniers paquets sont :  libc-bin:amd64 2.29-0Ubuntu2
+man-db:amd64 2.8.5-2
+rsyslog:amd64 8.32.0-1Ubuntu7
+apt-utils:amd64
+sosreport:amd64
 
-on tappe la commande `printenv PATH` et on a ce chemin comme résultat `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
-:/bin:/usr/games:/usr/local/games:/snap/bin`
 
 2- <b>_2. Utiliser dpkg et apt pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !).
 Comment explique-t-on la (petite) différence de comptage ?_</b>
