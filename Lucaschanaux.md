@@ -26,4 +26,6 @@ j'ai fait `dpkg -l` et j'ai vu qu'il y'avait 519 lignes de paquet
 
 4- <b>_Créer un alias “maj” qui met à jour le système_</b>
 
+alias maj='apt update && apt upgrade' 
+
 5- <b>_. A quoi sert le paquet fortunes ? Installez-le._</b>
