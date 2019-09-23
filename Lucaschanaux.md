@@ -67,7 +67,7 @@ j'ai d'abord installé aptitude en faisant `apt install aptitude` ensuite j'ai c
 
 # Exercice 6. Installation d’un paquet par PPA
 
-2- <b> _Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?_ <b>
+2- <b> _Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?_ </b>
 
 un fichier java .list et un fichier java.save
 
