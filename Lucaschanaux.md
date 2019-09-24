@@ -59,8 +59,10 @@ else
         echo "Installé";
 fi
 ``` 
-# Exercice 4 
 
+Réponse cours : `dpkg -l "nom_package" | grep "^ii") && echo "Installé" || echo "Non installé"` 
+# Exercice 4 
+Pour voir les programmes livré avec coreutils on fait `dpkg -L coreutils | grep "bin"`  ```[``` est l'équivalent de test, on doit donc bien mettre un espace après le crochet.
 # Exercice 5
 
 j'ai d'abord installé aptitude en faisant `apt install aptitude` ensuite j'ai chercher le paquet emacs en faisant `/` une fois cela fait j'ai fait `+ g g` et le paquet a été installé 
