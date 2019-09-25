@@ -46,6 +46,8 @@ j'ai fait `cat /var/log/dpkg.log` et je vois qu'il y'a eu fortunes en paquet ins
 # Exercice 2
 
 j'ai fait `which -a ls | tail -1 | xargs dpkg -S` 
+Le script bash est le suivant <br> `#!/bin/bash 
+echo $(which -a $1 | xargs dpkg -s 2>/dev/null)` 
 
 # Exercice 3
 le script bash est le suivant, quand je lance le script il suffit d'écrire la commande 
